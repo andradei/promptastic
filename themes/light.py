@@ -1,4 +1,4 @@
-from promptastic.utils import colors
+from utils import colors
 
 
 # Segments colors.

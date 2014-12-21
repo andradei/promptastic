@@ -2,8 +2,8 @@ import os
 import re
 import subprocess
 
-from promptastic.segments import Segment, theme
-from promptastic.utils import colors, glyphs
+from segments import Segment, theme
+from utils import colors, glyphs
 
 
 class Git(Segment):
