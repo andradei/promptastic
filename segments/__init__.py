@@ -1,6 +1,6 @@
 import importlib
 
-from utils import colors, sys
+from promptastic.utils import colors, sys
 import config
 theme = importlib.import_module('themes.{}'.format(sys.get_current_theme_name()))
 

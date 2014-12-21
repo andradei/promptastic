@@ -5,8 +5,8 @@ import time
 import getpass
 import socket
 
-from segments import Segment, theme
-from utils import colors, glyphs
+from promptastic.segments import Segment, theme
+from promptastic.utils import colors, glyphs
 
 
 class Jobs(Segment):

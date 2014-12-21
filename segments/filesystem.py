@@ -1,7 +1,7 @@
 import os
 
-from segments import Segment, theme
-from utils import colors, glyphs
+from promptastic.segments import Segment, theme
+from promptastic.utils import colors, glyphs
 
 
 class CurrentDir(Segment):

@@ -1,7 +1,7 @@
 import os
 
-from segments import Segment, theme
-from utils import colors
+from promptastic.segments import Segment, theme
+from promptastic.utils import colors
 
 
 class Ssh(Segment):
