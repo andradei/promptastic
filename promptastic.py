@@ -115,10 +115,10 @@ class Prompt:
         text_len -= basics.Divider().length() if right_starts_w_divider else 0
 
         # Padding dimension formula.
-        padding_len = cols - (text_len % cols)
+        padding_len = cols - text_len
 
         # If the padding length is exactly one column, then we don't need padding at all.
-        if padding_len == cols:
+        if padding_len == cols or padding_len < 0:
             padding_len = 0
             # And we also don't need the initial divider in the right part.
             if right_starts_w_divider:
